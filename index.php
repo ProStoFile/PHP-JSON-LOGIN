@@ -21,11 +21,20 @@ if (isset($_POST['submit'])) {
         <h4>Все поля <span>обязательны</span></h4>
     </div>
 
-    <label>Имя пользователя</label>
-    <input type="text" name="username">
+    <label>Логин</label>
+    <input type="text" name="login">
 
     <label>Пароль</label>
     <input type="text" name="password">
+
+    <label>Подтвердите пароль</label>
+    <input type="text" name="confirm_password">
+
+    <label>Электронная почта</label>
+    <input type="text" name="email">
+
+    <label>Имя пользователя</label>
+    <input type="text" name="username">
 
     <button type="submit" name="submit">Зарегистрироваться</button>
 
